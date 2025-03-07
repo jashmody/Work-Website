@@ -256,3 +256,52 @@ body {
 .image-div:hover {
   scale: 1.1;
 }
+
+#footer {
+  height: 40vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#footer #foot {
+  height: 50%;
+  width: 100%;
+  background-color: #000;
+}
+#footer h2 {
+  font-family: "Gilroy";
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+#footer #foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#footer #foot #foot-left {
+  font-weight: 200;
+  font-family: "gilroy";
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+#footer #foot #foot-right {
+  font-size: 1.3vw;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 80px;
+  padding: 10px;
+  gap: 15%;
+  text-transform: uppercase;
+}
